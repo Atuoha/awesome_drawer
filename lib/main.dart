@@ -13,8 +13,8 @@ class Main extends StatelessWidget {
     SystemChrome.setSystemUIOverlayStyle(
       const SystemUiOverlayStyle(statusBarColor: Colors.transparent),
     );
-    return const MaterialApp(
-      // theme: ThemeData.dark(),
+    return  MaterialApp(
+      theme: ThemeData.dark(),
       home: HomeScreen()
     );
   }
