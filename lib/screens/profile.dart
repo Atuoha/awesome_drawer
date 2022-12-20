@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 import '../widgets/menu_widget.dart';
 
-class SupportScreen extends StatelessWidget {
-  const SupportScreen({Key? key}) : super(key: key);
-  final String title = 'Support';
+class ProfileScreen extends StatelessWidget {
+  const ProfileScreen({Key? key}) : super(key: key);
+  final String title = 'Profile';
 
   @override
   Widget build(BuildContext context) {

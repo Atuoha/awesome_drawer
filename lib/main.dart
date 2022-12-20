@@ -1,5 +1,5 @@
 
-import 'package:awesome_drawer/screens/home.dart';
+import 'package:awesome_drawer/entry.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -13,9 +13,9 @@ class Main extends StatelessWidget {
     SystemChrome.setSystemUIOverlayStyle(
       const SystemUiOverlayStyle(statusBarColor: Colors.transparent),
     );
-    return  MaterialApp(
-      theme: ThemeData.dark(),
-      home: HomeScreen()
+    return const  MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: EntryScreen()
     );
   }
 }
